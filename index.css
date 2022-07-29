@@ -1,0 +1,47 @@
+.section {
+  padding: 50px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.title.success {
+  color: green;
+}
+.title.error {
+  color: red;
+}
+
+form {
+  padding: 50px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid teal;
+}
+
+label,
+input {
+  width: 100%;
+}
+
+label {
+  margin-bottom: 30px;
+}
+
+input {
+  padding: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: teal;
+  border: 3px solid gray;
+  border-radius: 5px;
+  cursor: pointer;
+}
